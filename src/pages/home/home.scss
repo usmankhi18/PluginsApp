@@ -1,0 +1,25 @@
+page-home {
+    .content-md {
+        color: map-get($colors, dark-green);
+        background-color:  lime;
+    }
+    .content-ios{
+        color: map-get($colors, dark-green);
+        background-color: lime;
+    }
+    .toolbar-title-ios {
+        color: map-get($colors, light);
+    }
+    .toolbar-title-md {
+        color: map-get($colors, light);
+        
+    }
+    .toolbar-background-md {
+        border-color: lime;
+        background: map-get($colors, dark-green);;
+    }
+    .toolbar-background-ios {
+        border-color: lime;
+        background: map-get($colors, dark-green);;
+    }
+}
